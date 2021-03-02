@@ -1,7 +1,7 @@
  
 #!/usr/bin/python
 # coding=utf-8
-# coded by : Tech-Abm 
+# coded by : Arbab Ali
 # https://www.facebook.com/Techabm
 
 try:
@@ -33,7 +33,7 @@ header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-ne
 reload(sys)
 sys.setdefaultencoding("utf8")
 
-def abm(z):
+def arbab(z):
 	for e in z + "\n":
 		sys.stdout.write(e)
 		sys.stdout.flush()
@@ -78,7 +78,7 @@ logo = """
 
 idh = []
 	
-def tech_abm():
+def arbab_ali():
     os.system("clear")
     print logo
     abm("\033[1;93mFirst Tools login")
@@ -761,4 +761,5 @@ def contact_info():
         contact_info()
 	
 if __name__ == '__main__':
-    tech_abm()        
+    arbab_ali()        
+####Coded by Arbab Ali
